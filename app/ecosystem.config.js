@@ -4,7 +4,6 @@ module.exports = {
       name: "HOME",
       script: "npx",
       args: "serve -p 8080 build/",
-      PORT: 8080,
       instances: 1,
       autorestart: false,
       watch: false,
